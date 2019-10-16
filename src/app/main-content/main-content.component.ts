@@ -64,7 +64,7 @@ export class MainContentComponent implements OnInit {
     this.disableAddButton = false;
     this.sort();
   }
-  sort(direction: string) {
+  sort() {
     this.studentArray.sort((a: IStudent, b: IStudent) => {
       return a.id < b.id ? -1 : 1;
     });
