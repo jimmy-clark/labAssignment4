@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lab Assignment 2</title>
+
+</head>
+
+<body>
+  <div class="main-container">
+    <!-- <main-header></main-header> -->
+
+    <div class="row-one">
+      <div class="container-padding">
+        R1C1
+      </div>
+      <div (mouseleave)="resetGreeting()" (mouseenter)="showGreeting()" id="r1c2" class="container-padding">
+        R1C2
+      </div>
+      <div class="container-padding">
+        R1C3
+      </div>
+    </div>
+    <div class="row-two">
+      <div class="container-padding">
+        R2C1
+      </div>
+      <div class="container-padding">
+        <main-content>
+<!-- <table class="table-one">
+          <thead>
+            <tr>
+              <td>ID:</td>
+              <td>First Name</td>
+              <td>Last Name</td>
+              <td>Courses</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let student of students">
+                <td>{{student.ID}}</td>
+                <td>{{student.firstName}}</td>
+                <td>{{student.lastName}}</td>
+                <td>{{student.course}}</td>
+            </tr>
+          </tbody>
+        </table> -->
+        </main-content>
+        
+      </div>
+      <div class="container-padding">
+        R2C3
+      </div>
+
+    </div>
+    <div class="row-three">
+      <div class="container-padding">
+        R3C1
+      </div>
+      <div class="container-padding">
+        R3C2
+      </div>
+      <div class="container-padding">
+        R3C3
+      </div>
+    </div>
+  </div>
+
+  <main-footer></main-footer>
+</body>
+
+
+</html>
