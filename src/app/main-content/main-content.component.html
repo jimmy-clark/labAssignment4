@@ -6,7 +6,7 @@
       <th scope="col">Last Name</th>
       <th scope="col">Courses</th>
       <th>
-        <div class="btn-group pull right">
+        <div class="btn-group" class="pull-right">
             <button type="button" class="btn btn-success" (click)="saveStudent()">Save</button>
             <button type="button" class="btn btn-info" [disabled]= " disableAddButton" (click)="addStudent()">Add</button>
 
@@ -38,7 +38,7 @@
           <!-- {{ student.course }} -->
         </td>
 
-      <td><button type="button" class="btn btn-danger pull right"(click)="deleteStudent(i)">X</button></td>
+      <td><button type="button" class="btn btn-danger" class ="pull-right"(click)="deleteStudent(i)">X</button></td>
     </tr>
   </tbody>
 </table>
